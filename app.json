@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Kuda",
+    "slug": "kudaapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "kuda",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#43196f"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/kuda_.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.dandolla98.propertymart",
+      "versionCode": 45
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/kuda_.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "aedb1a30-8f0c-4983-ba84-3e6bf4adfb41"
+      }
+    },
+    "owner": "codesage-x"
+  }
+}
